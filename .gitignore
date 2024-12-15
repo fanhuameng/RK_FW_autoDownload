@@ -1,0 +1,11 @@
+# 过滤文件夹
+/.idea/
+/.venv*/
+/dist/
+/build/
+# 文件
+*.log
+*.img
+*.bin
+*.txt
+# html 解密文件

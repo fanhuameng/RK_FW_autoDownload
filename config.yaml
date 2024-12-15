@@ -1,0 +1,24 @@
+is_file_check:
+  boot: true
+  loader: false
+  misc: false
+  oem: false
+  parameter: true
+  recovery: false
+  rootfs: false
+  uboot: false
+  update: false
+  userdata: false
+path:
+  boot: .\boot.img
+  loader: .\MiniLoaderAll.bin
+  misc: .\misc.img
+  oem: .\oem.img
+  parameter: .\parameter.txt
+  recovery: .\recovery.img
+  rootfs: .\rootfs.img
+  uboot: .\uboot.img
+  update: .\update.img
+  userdata: .\userdata.img
+
+"upgrade_tool_path": .\upgrade_tool.exe
